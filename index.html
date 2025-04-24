@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Aggregator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">News Aggregator</div>
+            <div class="controls">
+                <div class="dark-mode-toggle">
+                    <!-- From Uiverse.io by RiccardoRapelli --> 
+                    <label class="switch">
+                      <input id="darkModeToggle" type="checkbox" />
+                      <div class="slider round">
+                        <div class="sun-moon">
+                          <svg id="moon-dot-1" class="moon-dot" viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="50"></circle>
+                          </svg>
+                          <svg id="moon-dot-2" class="moon-dot" viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="50"></circle>
+                          </svg>
+                          <svg id="moon-dot-3" class="moon-dot" viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="50"></circle>
+                          </svg>
+                          <svg id="light-ray-1" class="light-ray" viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="50"></circle>
+                          </svg>
+                          <svg id="light-ray-2" class="light-ray" viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="50"></circle>
+                          </svg>
+                          <svg id="light-ray-3" class="light-ray" viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="50"></circle>
+                          </svg>
+                        </div>
+                        <div class="stars">
+                          <svg id="star-1" class="star" viewBox="0 0 20 20">
+                            <path
+                              d="M 0 10 C 10 10,10 10 ,0 10 C 10 10 , 10 10 , 10 20 C 10 10 , 10 10 , 20 10 C 10 10 , 10 10 , 10 0 C 10 10,10 10 ,0 10 Z"
+                            ></path>
+                          </svg>
+                        </div>
+                      </div>
+                    </label>
+                </div>
+                <button id="refreshButton" class="refresh-btn" title="Refresh news">
+                    <i class="fas fa-sync-alt"></i>
+                </button>
+                <div class="search-box">
+                    <input type="text" placeholder="Search articles...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="feed-container" id="newsFeed">
+            <div class="loading">Loading news articles...</div>
+        </div>
+    </main>
+
+    <template id="newsCardTemplate">
+        <div class="news-card">
+            <div class="card-content">
+                <h2 class="news-title"></h2>
+                <p class="news-author"></p>
+                <div class="news-summary"></div>
+                
+                <div class="slider-container">
+                    <div class="slider-header">
+                        <h4>Sentiment</h4>
+                        <span class="polarity-value"></span>
+                    </div>
+                    <div class="slider-track polarity-track">
+                        <div class="slider-thumb polarity-thumb"></div>
+                    </div>
+                    <div class="slider-labels">
+                        <span>Negative</span>
+                        <span>Neutral</span>
+                        <span>Positive</span>
+                    </div>
+                </div>
+                
+                <div class="slider-container">
+                    <div class="slider-header">
+                        <h4>Objectivity</h4>
+                        <span class="subjectivity-value"></span>
+                    </div>
+                    <div class="slider-track subjectivity-track">
+                        <div class="slider-thumb subjectivity-thumb"></div>
+                    </div>
+                    <div class="slider-labels">
+                        <span>Objective</span>
+                        <span>Neutral</span>
+                        <span>Subjective</span>
+                    </div>
+                </div>
+                
+                <!-- Expanded view will show full-size image -->
+                <div class="card-image-container">
+                    <img class="news-image" src="" alt="Article image">
+                </div>
+                
+                <!-- Expanded content will be appended here -->
+            </div>
+        </div>
+    </template>
+
+    <script src="script.js"></script>
+</body>
+</html>

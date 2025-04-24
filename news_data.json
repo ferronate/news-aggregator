@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "AI Development Reaches New Milestone with Self-Learning System",
+    "author": "Sarah Johnson",
+    "summary": "Researchers at MIT have created an AI system that can teach itself new tasks without human intervention, potentially revolutionizing how machine learning is approached.",
+    "topic": "Technology",
+    "polarity": 0.6,
+    "subjectivity": 0.3
+  },
+  {
+    "id": 2,
+    "title": "Climate Report Warns of Accelerating Arctic Ice Loss",
+    "author": "Michael Chen",
+    "summary": "A new study reveals Arctic ice is melting at a rate 25% faster than previously estimated, raising concerns about global climate feedback loops and sea level rise.",
+    "topic": "Science",
+    "polarity": -0.7,
+    "subjectivity": 0.2
+  },
+  {
+    "id": 3,
+    "title": "Congress Debates Comprehensive Privacy Legislation",
+    "author": "David Williams",
+    "summary": "Lawmakers are considering a bipartisan bill that would establish national standards for data privacy and give consumers more control over their personal information.",
+    "topic": "Politics",
+    "polarity": 0.1,
+    "subjectivity": 0.6
+  },
+  {
+    "id": 4,
+    "title": "Breakthrough Drug Shows Promise for Alzheimer's Treatment",
+    "author": "Dr. Emily Rodriguez",
+    "summary": "Clinical trials for a new medication targeting protein buildup in the brain have shown a 42% reduction in cognitive decline among early-stage Alzheimer's patients.",
+    "topic": "Health",
+    "polarity": 0.8,
+    "subjectivity": 0.4
+  },
+  {
+    "id": 5,
+    "title": "Tech Companies Face Increasing Regulation Globally",
+    "author": "James Thompson",
+    "summary": "Major technology firms are navigating a complex landscape of new regulations across Europe, Asia, and North America, affecting how they handle data and market competition.",
+    "topic": "Business",
+    "polarity": -0.2,
+    "subjectivity": 0.5
+  },
+  {
+    "id": 6,
+    "title": "Remote Work Trend Reshaping Urban Housing Markets",
+    "author": "Lisa Garcia",
+    "summary": "As more companies adopt permanent remote work policies, housing prices in suburban and rural areas are climbing while some urban centers see declining rental rates.",
+    "topic": "Business",
+    "polarity": 0.3,
+    "subjectivity": 0.4
+  },
+  {
+    "id": 7,
+    "title": "Renewable Energy Production Surpasses Coal for First Time",
+    "author": "Thomas Anderson",
+    "summary": "Solar, wind, and hydroelectric sources generated more electricity than coal in the U.S. last quarter, marking a historic shift in the nation's energy landscape.",
+    "topic": "Science",
+    "polarity": 0.7,
+    "subjectivity": 0.3
+  },
+  {
+    "id": 8,
+    "title": "Controversial Facial Recognition Bill Sparks Privacy Debate",
+    "author": "Rachel Green",
+    "summary": "Proposed legislation would limit government use of facial recognition technology, with advocates citing civil liberties concerns while opponents argue for security benefits.",
+    "topic": "Politics",
+    "polarity": -0.4,
+    "subjectivity": 0.8
+  },
+  {
+    "id": 9,
+    "title": "New Study Links Gut Health to Improved Immune Response",
+    "author": "Dr. Robert Kim",
+    "summary": "Research published in Nature Medicine demonstrates how specific gut bacteria can significantly enhance the effectiveness of immunotherapy treatments in cancer patients.",
+    "topic": "Health",
+    "polarity": 0.6,
+    "subjectivity": 0.2
+  },
+  {
+    "id": 10,
+    "title": "Chipmaker Announces $20 Billion Factory Investment",
+    "author": "Jennifer Martinez",
+    "summary": "A leading semiconductor company will build two new manufacturing plants in Arizona, creating thousands of jobs amid ongoing global chip shortages affecting multiple industries.",
+    "topic": "Technology",
+    "polarity": 0.5,
+    "subjectivity": 0.3
+  }
+]
